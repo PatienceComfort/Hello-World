@@ -20,3 +20,7 @@ Next step is to learn how to create a repository localy and then push it onto gi
 - Create a folder/repo locally
 - Create files inside this repo
 - use the command "git init" to make the repo into a github repo. But note that this repo is still not on github 
+- Then go to github and create an empty repo with the same name as the local repo
+- Copy the ssh code given 
+- Then use the command git remote add origin ssh-code
+- Then commit and push files as usual
