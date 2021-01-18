@@ -3,10 +3,10 @@ This is my very first repository on GIthub.
 
 ##### Subheader
 
-Following a git tutorial on youtube.
-Adding another line to verify the effectiveness of the public key. Hope it works!
-For now something is off. But I'll figure it out. I guess the order of my commands are a bit out of wack
-
+Modifying a repo from github:
+First step: cloning
+use the command "git clone repo-ssh-adress"
+You can then move into the files (by clicking or by cd) and modify them. You can also create new files.  Once that is done, you can then push the changes onto github with commands that must be in the correct order
 Correct order:
 - git status
 - git add .
@@ -15,3 +15,8 @@ Correct order:
 - git push / git push origin master
 
 I still dont understand what "git push origin master" is meant for. When I enter this command, It tells me that "Everything is up-to-date" but it doesn't push any of the chages onto my online repo. Unless I go through the regular status, add, commit first. So basically does the same thing as "git push"
+
+Next step is to learn how to create a repository localy and then push it onto github.
+- Create a folder/repo locally
+- Create files inside this repo
+- use the command "git init" to make the repo into a github repo. But note that this repo is still not on github 
