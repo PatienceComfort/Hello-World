@@ -16,6 +16,7 @@ Correct order:
 - git add .
 - git status (to check if the changes have been tracked)
 - git commit -m "Message title" -m "Message text"
+You can use "git commit -am "message" add and commit. But it only works for modified files, not created ones.
 - git push / git push origin master
 
 I still dont understand what "git push origin master" is meant for. When I enter this command, It tells me that "Everything is up-to-date" but it doesn't push any of the chages onto my online repo. Unless I go through the regular status, add, commit first. So basically does the same thing as "git push"
@@ -45,9 +46,17 @@ Ways to merge branch with master
 - With the command "git merge branchName"
 - With a pull request (on the github page)
 Once the pull request is done, anyone can review our code and decide to merge it with the master 
-
+- If you are in a branch, you can also update your branch from the master (to keep yourself up to date with your collegues' work) by doing "git merge master"
 Once you're done with your feature branch (once the merging is done) it's best practice to delete the branch. That can be done with the command "git branch -d branchName"
 
 ## Dealing with merge conflicts 
+Merge conflicts can be solved directly in the code (especially visual studio code) where it shows you the conflict and gives you the opportunity to fix it
 
+## Undoing commits with git
+- By using the " git reset" or "git reset "fileName" to remove the last commit
+- Bu using the "git reset HEAD~1" you are resetting the second to last commit. 2 for the commit before that, etc.
+- You can use the "git log" command to view a log of all your commits
+- You can then copy the id number of whatever commit you like and reset it with the "git reset idNumber" command 
+- By doing th "git reset Hard idNumber, the commit is not only unstaged but completely erased 
 
+## Looking into forking 
