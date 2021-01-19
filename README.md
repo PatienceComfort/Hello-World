@@ -38,4 +38,11 @@ And in case you make multiple branches, each branch has no way of knowing what w
 So how do I create a new branch locally?
 - First check what branch you are operating on with "git branch". It should show you all the branches you have and indicate which branch you are on with a star 
 - Then you run the command "git checkout -b branchName" to create a new branch and "git checkout branchName" to switch to an already existing branch
+- To set up the brach upstream (online), once you've added and commited your changes in your branch, you use the commande "git push --set-upstream origin branchName" or "git push -u origin branchName"
+
+Ways to merge branch with master 
+- Check the differences by going back into master then the command "git diff branchName"
+- With th command "git merge 
+- With a pull request. 
+Once the pull request is done, anyone can review oour code and decide to merge it with the master 
 
