@@ -1,7 +1,8 @@
 # Hello-World
-This is my very first repository on GIthub. 
+This is my very first repository on Github. I'll be using it to learn git (in addition to getting the handle of visual code)
+I'll also be using atlassian's git guide as a cross-reference for the youtube tutorial I'm following 
 
-##### Subheader
+##### Cloning and updating a repo
 
 Modifying a repo from github:
 First step: cloning
@@ -16,6 +17,7 @@ Correct order:
 
 I still dont understand what "git push origin master" is meant for. When I enter this command, It tells me that "Everything is up-to-date" but it doesn't push any of the chages onto my online repo. Unless I go through the regular status, add, commit first. So basically does the same thing as "git push"
 
+#### Creating a repo locally 
 Next step is to learn how to create a repository localy and then push it onto github.
 - Create a folder/repo locally
 - Create files inside this repo
@@ -24,3 +26,6 @@ Next step is to learn how to create a repository localy and then push it onto gi
 - Copy the ssh code given 
 - Then use the command git remote add origin ssh-code
 - Then commit and push files as usual
+
+#### Branching 
+
