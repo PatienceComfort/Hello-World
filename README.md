@@ -42,7 +42,12 @@ So how do I create a new branch locally?
 
 Ways to merge branch with master 
 - Check the differences by going back into master then the command "git diff branchName"
-- With th command "git merge 
-- With a pull request. 
-Once the pull request is done, anyone can review oour code and decide to merge it with the master 
+- With the command "git merge branchName"
+- With a pull request (on the github page)
+Once the pull request is done, anyone can review our code and decide to merge it with the master 
+
+Once you're done with your feature branch (once the merging is done) it's best practice to delete the branch. That can be done with the command "git branch -d branchName"
+
+## Dealing with merge conflicts 
+
 
