@@ -35,3 +35,7 @@ The master branch is the main/default branch. Unless you create another branch, 
 When you make another branch (feature branch), at first, the code within the two branches will be exactly the same. But as you make changes, the changes will only appear in the feature branch. This allows our code to be tested without corrupting the main code. 
 And in case you make multiple branches, each branch has no way of knowing what was commited onto the other branches.
 
+So how do I create a new branch locally?
+- First check what branch you are operating on with "git branch". It should show you all the branches you have and indicate which branch you are on with a star 
+- Then you run the command "git checkout -b branchName" to create a new branch and "git checkout branchName" to switch to an already existing branch
+
